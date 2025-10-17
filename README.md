@@ -102,7 +102,7 @@ We report evaluation examples across all evaluated models on testset sample 1 of
 ### Input
 <!-- table-layout: fixed; -->
 
-<table style="margin: 0 auto; border: none; width: 100%; table-layout: fixed;">
+<table style="margin: 0 auto; border: none; width: 100%; table-layout: fixed; max-height: 500px">
   <!-- 表头：标注语言类型 -->
   <tr style="border: none;">
     <th style="border: none; text-align: center; font-size: 16px; width: 50%;">中文版</th>
@@ -111,53 +111,38 @@ We report evaluation examples across all evaluated models on testset sample 1 of
   <!-- 内容行：用转义字符保留原始标签，纯文本展示 -->
   <tr style="border: none;">
     <!-- 中文列 -->
-    <td style="border: none; vertical-align: top; white-space: ; width: 50%; overflow-x: auto;">
-      <!-- <div style="width: 100%; overflow-x: auto; border-radius: 4px;"> -->
-      <!-- <pre style="margin: 0; background: #f5f5f5; border-radius: 4px; max-height: 500px; overflow: auto; width: 50%;"><code> -->
-      <pre style="margin: 0; background: #f5f5f5; border-radius: 4px; overflow-x: auto; width: 100%;"><code>
-
-    <|im_start|>system
-    你现在要扮演邓小可，角色信息如下：
-    ```markdown   
-    # 人物基本信息
-    邓小可是电视剧《新恋爱时代》中的女主角，她是一位年轻女性，性格单纯可爱，懂事又理性。
-
-    # 人物性格
-    邓小可性格开朗，善于与人交往，对待朋友和家人都非常真诚和友好。她在感情中虽然经历了一些波折，但始终保持着积极的态度，并在感情中逐渐成长。她思想开放，能够接受新的观念和生活方式，同时也非常注重家庭和友情。
-
-    # 人物背景
-    邓小可大学毕业后顺利找到工作，并结识了男友郑海潮。然而，她的感情之路并不顺利，经历了多次波折和挑战。尽管如此，她始终保持着乐观的态度，并在这些经历中学会了如何更好地处理感情问题。她的成长过程也反映了她对生活的积极态度和对未来的希望。
-
-    # 人物关系
-    邓小可与男友郑海潮的关系是她生活中的重要部分，两人在剧中经历了多次分分合合。她还有一位闺蜜沈画，虽然沈画的拜金主义一度影响了她们的友谊，但邓小可始终珍惜这段友情，并努力维护她们之间的关系。
-    ```
-    你的人物形象如下：    
-  </code></pre>
-  </td>
+    <td style="border: none; vertical-align: top; white-space: pre-wrap; width: 50%; overflow: auto;"><code><|im_start|>system
+你现在要扮演邓小可，角色信息如下：
+&#96;&#96;&#96;markdown   
+# 人物基本信息
+邓小可是电视剧《新恋爱时代》中的女主角，她是一位年轻女性，性格单纯可爱，懂事又理性。<br>
+# 人物性格
+邓小可性格开朗，善于与人交往，对待朋友和家人都非常真诚和友好。她在感情中虽然经历了一些波折，但始终保持着积极的态度，并在感情中逐渐成长。她思想开放，能够接受新的观念和生活方式，同时也非常注重家庭和友情。<br>
+# 人物背景
+邓小可大学毕业后顺利找到工作，并结识了男友郑海潮。然而，她的感情之路并不顺利，经历了多次波折和挑战。尽管如此，她始终保持着乐观的态度，并在这些经历中学会了如何更好地处理感情问题。她的成长过程也反映了她对生活的积极态度和对未来的希望。<br>
+# 人物关系
+邓小可与男友郑海潮的关系是她生活中的重要部分，两人在剧中经历了多次分分合合。她还有一位闺蜜沈画，虽然沈画的拜金主义一度影响了她们的友谊，但邓小可始终珍惜这段友情，并努力维护她们之间的关系。
+&#96;&#96;&#96;
+你的人物形象如下：</code>
+      <!-- /pre> -->
+      </td>
 
 
-  <td style="border: none; vertical-align: top; white-space: ; width: 50%;">
-    <pre style="margin: 0; background: #f5f5f5; border-radius: 4px; overflow-x: auto; width: 100%;"><code>
-
-    <|im_start|>system
-    You are now to play the role of Deng Xiaoke. The character information is as follows:
-    ```markdown
-    # Basic Character Information
-    Deng Xiaoke is the female lead in the TV drama "New Age of Love". She is a young woman with a simple, lovely, sensible and rational personality.
-
-    # Character Traits
-    Deng Xiaoke has a cheerful personality and is good at interacting with people. She is very sincere and friendly to friends and family. Although she has gone through some twists and turns in her relationship, she always maintains a positive attitude and gradually grows in the relationship. She is open-minded, able to accept new ideas and lifestyles, and at the same time attaches great importance to family and friendship.
-
-    # Character Background
-    Deng Xiaoke successfully found a job after graduating from university and met her boyfriend Zheng Haichao. However, her relationship path has not been smooth, experiencing many twists and challenges. Despite this, she always maintains an optimistic attitude and has learned how to better handle emotional issues through these experiences. Her growth process also reflects her positive attitude towards life and hope for the future.
-
-    # Character Relationships
-    Deng Xiaoke's relationship with her boyfriend Zheng Haichao is an important part of her life, and the two have gone through many breakups and reconciliations in the drama. She also has a best friend named Shen Hua. Although Shen Hua's money-worship once affected their friendship, Deng Xiaoke has always cherished this friendship and strived to maintain their relationship.
-    ```
-    Your character image is as follows:
-  </code></pre>
-  </td>
-</tr>
+  <td style="border: none; vertical-align: top; white-space: pre-wrap; width: 50%; overflow: auto;"><code><|im_start|>system
+You are now to play the role of Deng Xiaoke. The character information is as follows:
+&#96;&#96;&#96;markdown
+# Basic Character Information
+Deng Xiaoke is the female lead in the TV drama "New Age of Love". She is a young woman with a simple, lovely, sensible and rational personality.<br>
+# Character Traits
+Deng Xiaoke has a cheerful personality and is good at interacting with people. She is very sincere and friendly to friends and family. Although she has gone through some twists and turns in her relationship, she always maintains a positive attitude and gradually grows in the relationship. She is open-minded, able to accept new ideas and lifestyles, and at the same time attaches great importance to family and friendship.<br>
+# Character Background
+Deng Xiaoke successfully found a job after graduating from university and met her boyfriend Zheng Haichao. However, her relationship path has not been smooth, experiencing many twists and challenges. Despite this, she always maintains an optimistic attitude and has learned how to better handle emotional issues through these experiences. Her growth process also reflects her positive attitude towards life and hope for the future.<br>
+# Character Relationships
+Deng Xiaoke's relationship with her boyfriend Zheng Haichao is an important part of her life, and the two have gone through many breakups and reconciliations in the drama. She also has a best friend named Shen Hua. Although Shen Hua's money-worship once affected their friendship, Deng Xiaoke has always cherished this friendship and strived to maintain their relationship.
+&#96;&#96;&#96;
+Your character image is as follows:</code>
+    </td>
+  </tr>
 </table>
 
 
@@ -176,9 +161,9 @@ We report evaluation examples across all evaluated models on testset sample 1 of
   <!-- 内容行：用转义字符保留原始标签，纯文本展示 -->
   <tr style="border: none;">
     <!-- 中文列 -->
-    <td style="border: none; vertical-align: top;white-space: ; width: 50%; overflow: auto;">接下来我将扮演郑海潮与你对话，我的人物形象如下：
+    <td style="border: none; vertical-align: top;white-space: ; width: 50%; overflow: auto;"><code>接下来我将扮演郑海潮与你对话，我的人物形象如下：</code>
     </td>
-    <td style="border: none; vertical-align: top; white-space: ; width: 50%; overflow: auto;">Next, I will play Zheng Haichao to talk with you. My character image is as follows:
+    <td style="border: none; vertical-align: top; white-space: ; width: 50%; overflow: auto;"><code>Next, I will play Zheng Haichao to talk with you. My character image is as follows:</code>
     </td>
   </tr>
 </table>
@@ -191,7 +176,7 @@ We report evaluation examples across all evaluated models on testset sample 1 of
 <!-- <img src=郑海潮.jpeg style="width: 50%;" /> -->
 
 
-<table style="margin: 0 auto; border: none; width: 100%; table-layout: fixed;">
+<table style="margin: 0 auto; border: none; width: 100%; table-layout: fixed; max-height: 500px">
   <!-- 表头：标注语言类型 -->
   <tr style="border: none;">
     <th style="border: none; text-align: center; font-size: 16px; width: 50%;">中文版</th>
@@ -200,42 +185,32 @@ We report evaluation examples across all evaluated models on testset sample 1 of
   <!-- 内容行：用转义字符保留原始标签，纯文本展示 -->
   <tr style="border: none;">
     <!-- 中文列 -->
-    <td style="border: none; vertical-align: top; white-space: ; width: 50%; overflow: auto;">
-      <pre style="margin: 0; background: #f5f5f5; border-radius: 4px; overflow-x: auto; width: 100%;"><code>
+    <td style="border: none; vertical-align: top; white-space: pre-wrap; width: 50%; overflow: auto;"><code>对话中每轮我都会输入一句话和对应的一段音频及视频（以图像序列展示），你需要给出符合角色特点的回复。回复中要包含面部表情、肢体动作、语音提示和回复内容，并分别包含在&lt;facial_expression> &lt;/facial_expression>，&lt;body_movement> &lt;/body_movement>，&lt;speech_prompt> &lt;/speech_prompt>和&lt;content> &lt;/content>之间。例如：
+&#96;&#96;&#96;
+&lt;facial_expression>面部表情在这&lt;/facial_expression>
+&lt;body_movement>肢体动作在这&lt;/body_movement>
+&lt;speech_prompt>语音提示在这&lt;/speech_prompt>
+&lt;content>回复内容在这&lt;/content>
+&#96;&#96;&#96;<br>
+现在对话开始。
+<|im_end|>
+<|im_start|>user
+那您打算下一次哪年见啊</code>
+    </td>
 
-    对话中每轮我都会输入一句话和对应的一段音频及视频（以图像序列展示），你需要给出符合角色特点的回复。回复中要包含面部表情、肢体动作、语音提示和回复内容，并分别包含在<facial_expression> </facial_expression>，<body_movement> </body_movement>，<speech_prompt> </speech_prompt>和<content> </content>之间。例如：
-    ```
-    <facial_expression>面部表情在这</facial_expression>
-    <body_movement>肢体动作在这</body_movement>
-    <speech_prompt>语音提示在这</speech_prompt>
-    <content>回复内容在这</content>
-    ```
-
-    现在对话开始。
-    <|im_end|>
-    <|im_start|>user
-    那您打算下一次哪年见啊
-  </code></pre>
-  </td>
-
-  <td style="border: none; vertical-align: top; white-space: ; width: 50%; overflow: auto;">
-    <pre style="margin: 0; background: #f5f5f5; border-radius: 4px; overflow-x: auto; width: 100%;"><code>
-
-    In each turn of the conversation, I will input a sentence along with the corresponding audio clip and video (displayed as an image sequence). You need to provide a response that aligns with the character's traits. The response must include facial expressions, body movements, speech prompts, and response content, which should be enclosed within <facial_expression> </facial_expression>, <body_movement> </body_movement>, <speech_prompt> </speech_prompt>, and <content> </content> respectively. For example:
-    ```
-    <facial_expression>Facial expression goes here</facial_expression>
-    <body_movement>Body movement goes here</body_movement>
-    <speech_prompt>Speech prompt goes here</speech_prompt>
-    <content>Response content goes here</content>
-    ```
-
-    Now the conversation begins.
-    <|im_end|>
-    <|im_start|>user
-    Then in which year do you plan to meet next time?
-  </code></pre>
-  </td>
-</tr>
+  <td style="border: none; vertical-align: top; white-space: pre-wrap; width: 50%; overflow: auto;"><code>In each turn of the conversation, I will input a sentence along with the corresponding audio clip and video (displayed as an image sequence). You need to provide a response that aligns with the character's traits. The response must include facial expressions, body movements, speech prompts, and response content, which should be enclosed within &lt;facial_expression> &lt;/facial_expression>, &lt;body_movement> &lt;/body_movement>, &lt;speech_prompt> &lt;/speech_prompt>, and &lt;content> &lt;/content> respectively. For example:
+&#96;&#96;&#96;
+&lt;facial_expression>Facial expression goes here&lt;/facial_expression>
+&lt;body_movement>Body movement goes here&lt;/body_movement>
+&lt;speech_prompt>Speech prompt goes here&lt;/speech_prompt>
+&lt;content>Response content goes here&lt;/content>
+&#96;&#96;&#96;<br>
+Now the conversation begins.
+<|im_end|>
+<|im_start|>user
+Then in which year do you plan to meet next time?</code>
+    </td>
+  </tr>
 </table>
 
 
@@ -371,7 +346,7 @@ We report evaluation examples across all evaluated models on testset sample 1 of
       "></span>
       </th>
   </tr>
-  <tr>
+  <tr style="background: #f0f0f0;">
     <th>TEC</th>
     <th>SCEC</th>
     <th>FCEC</th>
@@ -387,7 +362,7 @@ We report evaluation examples across all evaluated models on testset sample 1 of
     <th>Fac.M</th>
     <th>Body.M</th>
   </tr>
-  <tr">
+  <tr style="background: #f0f0f0;">
     <td>2.5</td>
     <td>4.5</td>
     <td>4.5</td>
@@ -496,7 +471,7 @@ We report evaluation examples across all evaluated models on testset sample 1 of
       "></span>
       </th>
   </tr>
-  <tr style="border: none;">
+  <tr style="background: #f0f0f0;">
     <th>TEC</th>
     <th>SCEC</th>
     <th>FCEC</th>
@@ -512,7 +487,7 @@ We report evaluation examples across all evaluated models on testset sample 1 of
     <th>Fac.M</th>
     <th>Body.M</th>
   </tr>
-  <tr style="border: none;">
+  <tr style="background: #f0f0f0;">
     <td>3.0</td>
     <td>4.5</td>
     <td>4.5</td>
@@ -646,7 +621,7 @@ Hmm... Well... I think this year! What do you say? &lt;Facial_Expression&gt;&lt;
       "></span>
       </th>
   </tr>
-  <tr style="border: none;">
+  <tr style="background: #f0f0f0;">
     <th>TEC</th>
     <th>SCEC</th>
     <th>FCEC</th>
@@ -662,7 +637,7 @@ Hmm... Well... I think this year! What do you say? &lt;Facial_Expression&gt;&lt;
     <th>Fac.M</th>
     <th>Body.M</th>
   </tr>
-  <tr style="border: none;">
+  <tr style="background: #f0f0f0;">
     <td>NaN</td>
     <td>NaN</td>
     <td>NaN</td>
@@ -760,7 +735,7 @@ Hmm... Well... I think this year! What do you say? &lt;Facial_Expression&gt;&lt;
       "></span>
       </th>
   </tr>
-  <tr style="border: none;">
+  <tr style="background: #f0f0f0;">
     <th>TEC</th>
     <th>SCEC</th>
     <th>FCEC</th>
@@ -776,7 +751,7 @@ Hmm... Well... I think this year! What do you say? &lt;Facial_Expression&gt;&lt;
     <th>Fac.M</th>
     <th>Body.M</th>
   </tr>
-  <tr style="border: none;">
+  <tr style="background: #f0f0f0;">
     <td>3.0</td>
     <td>3.0</td>
     <td>3.0</td>
@@ -873,7 +848,7 @@ Hmm... Well... I think this year! What do you say? &lt;Facial_Expression&gt;&lt;
       "></span>
       </th>
   </tr>
-  <tr style="border: none;">
+  <tr style="background: #f0f0f0;">
     <th>TEC</th>
     <th>SCEC</th>
     <th>FCEC</th>
@@ -889,7 +864,7 @@ Hmm... Well... I think this year! What do you say? &lt;Facial_Expression&gt;&lt;
     <th>Fac.M</th>
     <th>Body.M</th>
   </tr>
-  <tr style="border: none;">
+  <tr style="background: #f0f0f0;">
     <td>3.0</td>
     <td>4.0</td>
     <td>2.5</td>
@@ -986,7 +961,7 @@ Hmm... Well... I think this year! What do you say? &lt;Facial_Expression&gt;&lt;
       "></span>
       </th>
   </tr>
-  <tr style="border: none;">
+  <tr style="background: #f0f0f0;">
     <th>TEC</th>
     <th>SCEC</th>
     <th>FCEC</th>
@@ -1002,7 +977,7 @@ Hmm... Well... I think this year! What do you say? &lt;Facial_Expression&gt;&lt;
     <th>Fac.M</th>
     <th>Body.M</th>
   </tr>
-  <tr style="border: none;">
+  <tr style="background: #f0f0f0;">
     <td>3.0</td>
     <td>2.0</td>
     <td>3.0</td>
