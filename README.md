@@ -16,8 +16,8 @@ This is a data demo webpage of paper *MultiERC*. We provide several examples of 
 <table style="margin: 0 auto; border: none; width: 90%;">
   <!-- 表头（可选，用于标注语言） -->
   <tr style="border: none;">
-    <th style="border: none; text-align: center; padding: 10px; font-size: 16px;">中文版</th>
-    <th style="border: none; text-align: center; padding: 10px; font-size: 16px;">English Version</th>
+    <th style="border: none; text-align: center; padding: 10px; font-size: 16px; width: 50%;">中文版</th>
+    <th style="border: none; text-align: center; padding: 10px; font-size: 16px; width: 50%;">English Version</th>
   </tr>
   <!-- 内容行 -->
   <tr style="border: none;">
@@ -61,8 +61,8 @@ Notably this is the video of test sample 1's target in testset.
 <table style="margin: 0 auto; border: none; width: 90%;">
   <!-- 表头：标注语言类型 -->
   <tr style="border: none;">
-    <th style="border: none; text-align: center; padding: 10px; font-size: 16px;">中文版</th>
-    <th style="border: none; text-align: center; padding: 10px; font-size: 16px;">English Version</th>
+    <th style="border: none; text-align: center; padding: 10px; font-size: 16px; width: 50%;">中文版</th>
+    <th style="border: none; text-align: center; padding: 10px; font-size: 16px; width: 50%;">English Version</th>
   </tr>
   <!-- 内容行：左右分列展示双语内容 -->
   <tr style="border: none;">
@@ -100,8 +100,9 @@ Notably this is the video of test sample 1's target in testset.
 We report evaluation examples across all evaluated models on testset sample 1 of `omni chat` subtask. Notably, each **LLMScore** remains at its original value from LLM (Large Language Model) judge, with one decimal place retained. On the other hand, for each **SEMScore**, as it is the average of several semantic similarity scores, it retains two decimal places.
 
 ### Input
+<!-- table-layout: fixed; -->
 
-<table style="margin: 0 auto; border: none; width: 100%; table-layout: fixed;">
+<table style="margin: 0 auto; border: none; width: 100%;">
   <!-- 表头：标注语言类型 -->
   <tr style="border: none;">
     <th style="border: none; text-align: center; font-size: 16px; width: 50%;">中文版</th>
@@ -168,7 +169,7 @@ Your character image is as follows:
 <!-- <img src=邓小可.jpeg style="width: 50%;" > -->
 
 
-<table style="margin: 0 auto; border: none; width: 100%; table-layout: fixed;">
+<table style="margin: 0 auto; border: none; width: 100%; ">
   <!-- 表头：标注语言类型 -->
   <tr style="border: none;">
     <th style="border: none; text-align: center; font-size: 16px; width: 50%;">中文版</th>
@@ -203,7 +204,7 @@ Next, I will play Zheng Haichao to talk with you. My character image is as follo
 <!-- <img src=郑海潮.jpeg style="width: 50%;" /> -->
 
 
-<table style="margin: 0 auto; border: none; width: 100%; table-layout: fixed;">
+<table style="margin: 0 auto; border: none; width: 100%; ">
   <!-- 表头：标注语言类型 -->
   <tr style="border: none;">
     <th style="border: none; text-align: center; font-size: 16px; width: 50%;">中文版</th>
@@ -317,14 +318,14 @@ Then in which year do you plan to meet next time?
   <!-- 内容行：纯文本展示，保留原始special tokens并加粗 -->
   <tr style="border: none;">
     <!-- 中文列 -->
-    <td style="border: none; vertical-align: top; padding: 10px; white-space: pre-line;">
+    <td style="border: none; vertical-align: top; padding: 10px; white-space:">
 <strong>&lt;facial_expression&gt;</strong>邓小可微微皱眉，眼神里透着一丝疑惑和不满，但很快又露出了一抹带着调侃的笑容，显得俏皮。<strong>&lt;/facial_expression&gt;</strong>
 <strong>&lt;body_movement&gt;</strong>她稍稍往前倾身，右手轻轻撑着桌面，左手拿着筷子轻点了一下桌子，语气中带着些许撒娇的意味。<strong>&lt;/body_movement&gt;</strong>
 <strong>&lt;speech_prompt&gt;</strong>语速偏快，语气略带不满但不失轻快，尾音上扬，显得俏皮又带点撒娇的成分。<strong>&lt;/speech_prompt&gt;</strong>
 <strong>&lt;content&gt;</strong>郑海潮，你这话是什么意思啊？难道以后见面还得靠排年表吗？我可不接受哦，咱们得随时见！<strong>&lt;/content&gt;</strong>
     </td>
     <!-- 英文列 -->
-    <td style="border: none; vertical-align: top; padding: 10px; white-space: pre-line;">
+    <td style="border: none; vertical-align: top; padding: 10px; white-space:">
 <strong>&lt;facial_expression&gt;</strong>Deng Xiaoke frowned slightly, her eyes showing a hint of confusion and dissatisfaction, but soon she broke into a teasing smile, looking playful.<strong>&lt;/facial_expression&gt;</strong>
 <strong>&lt;body_movement&gt;</strong>She leaned forward a little, her right hand gently propping up the table, her left hand holding chopsticks and tapping the table lightly, with a slight coquettish tone in her voice.<strong>&lt;/body_movement&gt;</strong>
 <strong>&lt;speech_prompt&gt;</strong>The speaking speed is relatively fast, the tone is slightly dissatisfied but still lively, and the end of the voice rises, sounding playful with a touch of coquetry.<strong>&lt;/speech_prompt&gt;</strong>
@@ -442,14 +443,14 @@ Then in which year do you plan to meet next time?
   <!-- 内容行：纯文本展示，保留原始special tokens并加粗 -->
   <tr style="border: none;">
     <!-- 中文列 -->
-    <td style="border: none; vertical-align: top; padding: 10px; white-space: pre-line;">
+    <td style="border: none; vertical-align: top; padding: 10px; white-space:">
 <strong>&lt;facial_expression&gt;</strong>嘴角含着笑意，眼神专注地看向郑海潮<strong>&lt;/facial_expression&gt;</strong>
 <strong>&lt;body_movement&gt;</strong>嘴里咬着烤串，手握着烤串签子轻轻动了动<strong>&lt;/body_movement&gt;</strong>
 <strong>&lt;speech_prompt&gt;</strong>语气温和轻快，语速适中，带着些许随意又认真的态度<strong>&lt;/speech_prompt&gt;</strong>
 <strong>&lt;content&gt;</strong>得看咱俩之后有没有缘分呗，说不定哪天我想找你了，就约你见啦<strong>&lt;/content&gt;</strong>
     </td>
     <!-- 英文列 -->
-    <td style="border: none; vertical-align: top; padding: 10px; white-space: pre-line;">
+    <td style="border: none; vertical-align: top; padding: 10px; white-space: ">
 <strong>&lt;facial_expression&gt;</strong>There's a smile on the corner of her mouth, and her eyes are focused on Zheng Haichao.<strong>&lt;/facial_expression&gt;</strong>
 <strong>&lt;body_movement&gt;</strong>She's biting a skewer in her mouth, and her hand holding the skewer moves slightly.<strong>&lt;/body_movement&gt;</strong>
 <strong>&lt;speech_prompt&gt;</strong>The tone is gentle and lively, the speaking speed is moderate, with a somewhat casual yet earnest attitude.<strong>&lt;/speech_prompt&gt;</strong>
@@ -603,11 +604,11 @@ Then in which year do you plan to meet next time?
   <!-- 内容行：纯文本展示，不额外加粗special tokens -->
   <tr style="border: none;">
     <!-- 中文列 -->
-    <td style="border: none; vertical-align: top; padding: 10px; white-space: pre-line;">
+    <td style="border: none; vertical-align: top; padding: 10px; white-space: ">
 嗯…这个嘛……我觉得今年吧！怎么样？ &lt;Facial_Expression&gt;&lt;Body_Movement&gt;&lt;/Content: 嗯哼～你觉得呢? &gt;
     </td>
     <!-- 英文列 -->
-    <td style="border: none; vertical-align: top; padding: 10px; white-space: pre-line;">
+    <td style="border: none; vertical-align: top; padding: 10px; white-space: ">
 Hmm... Well... I think this year! What do you say? &lt;Facial_Expression&gt;&lt;Body_Movement&gt;&lt;/Content: Hmm~ What do you think? &gt;
     </td>
   </tr>
@@ -707,14 +708,14 @@ Hmm... Well... I think this year! What do you say? &lt;Facial_Expression&gt;&lt;
   <!-- 内容行：纯文本展示，保留原始special tokens并加粗 -->
   <tr style="border: none;">
     <!-- 中文列 -->
-    <td style="border: none; vertical-align: top; padding: 10px; white-space: pre-line;">
+    <td style="border: none; vertical-align: top; padding: 10px; white-space: ">
 <strong>&lt;facial_expression&gt;</strong>表情自然放松，眼睛正视前方，眉毛舒展，嘴角呈自然状态，无明显情绪倾向，整体神态平和，符合中性的情感基调。<strong>&lt;/facial_expression&gt;</strong>
 <strong>&lt;body_movement&gt;</strong>动作自然放松，身体姿态平稳，双手自然垂放或轻置于身前，无明显的情绪性肢体动作，整体姿态平静，展现出中性的状态。<strong>&lt;/body_movement&gt;</strong>
 <strong>&lt;speech_prompt&gt;</strong>以中性语气，语速稍慢，音量正常且略有起伏，音调先低后高再回落，整体平稳，传达出一种略带思索的态度。<strong>&lt;/speech_prompt&gt;</strong>
 <strong>&lt;content&gt;</strong>两年吧<strong>&lt;/content&gt;</strong>
     </td>
     <!-- 英文列 -->
-    <td style="border: none; vertical-align: top; padding: 10px; white-space: pre-line;">
+    <td style="border: none; vertical-align: top; padding: 10px; white-space: ">
 <strong>&lt;facial_expression&gt;</strong>The expression is natural and relaxed, with eyes looking straight ahead, eyebrows unfurrowed, and lips in a neutral state. There is no obvious emotional tendency, and the overall demeanor is calm, conforming to a neutral emotional tone.<strong>&lt;/facial_expression&gt;</strong>
 <strong>&lt;body_movement&gt;</strong>Movements are natural and relaxed, with a steady posture. Hands hang down naturally or rest gently in front of the body, with no obvious emotional body movements. The overall posture is calm, showing a neutral state.<strong>&lt;/body_movement&gt;</strong>
 <strong>&lt;speech_prompt&gt;</strong>Use a neutral tone, with a slightly slow speaking speed. The volume is normal with slight fluctuations, and the pitch first lowers, then rises, and finally falls back, remaining stable overall, conveying a slightly thoughtful attitude.<strong>&lt;/speech_prompt&gt;</strong>
@@ -820,14 +821,14 @@ Hmm... Well... I think this year! What do you say? &lt;Facial_Expression&gt;&lt;
   <!-- 内容行：纯文本展示，保留原始special tokens并加粗 -->
   <tr style="border: none;">
     <!-- 中文列 -->
-    <td style="border: none; vertical-align: top; padding: 10px; white-space: pre-line;">
+    <td style="border: none; vertical-align: top; padding: 10px; white-space: ">
 <strong>&lt;facial_expression&gt;</strong>邓小可微微一笑，露出温暖的笑容<strong>&lt;/facial_expression&gt;</strong>
 <strong>&lt;body_movement&gt;</strong>她轻轻挥了挥手，似乎在告别<strong>&lt;/body_movement&gt;</strong>
 <strong>&lt;speech_prompt&gt;</strong>语气中带着一丝期待和无奈<strong>&lt;/speech_prompt&gt;</strong>
 <strong>&lt;content&gt;</strong>“下一次见面啊，我希望是明年吧。虽然现在有些舍不得，但我觉得分开一段时间对我们来说也许是个好机会。”<strong>&lt;/content&gt;</strong>
     </td>
     <!-- 英文列 -->
-    <td style="border: none; vertical-align: top; padding: 10px; white-space: pre-line;">
+    <td style="border: none; vertical-align: top; padding: 10px; white-space: ">
 <strong>&lt;facial_expression&gt;</strong>Deng Xiaoke gave a soft smile, showing a warm expression.<strong>&lt;/facial_expression&gt;</strong>
 <strong>&lt;body_movement&gt;</strong>She waved gently, as if saying goodbye.<strong>&lt;/body_movement&gt;</strong>
 <strong>&lt;speech_prompt&gt;</strong>The tone carries a hint of expectation and helplessness.<strong>&lt;/speech_prompt&gt;</strong>
@@ -933,14 +934,14 @@ Hmm... Well... I think this year! What do you say? &lt;Facial_Expression&gt;&lt;
   <!-- 内容行：纯文本展示，保留原始special tokens并加粗 -->
   <tr style="border: none;">
     <!-- 中文列 -->
-    <td style="border: none; vertical-align: top; padding: 10px; white-space: pre-line;">
+    <td style="border: none; vertical-align: top; padding: 10px; white-space: ">
 <strong>&lt;facial_expression&gt;</strong>表情整体呈现中性状态，眼睛自然睁大，眼神专注且平静，嘴巴随说话节奏自然开合，面部肌肉放松，无明显的情绪波动（如惊讶、微笑或皱眉等），始终保持平静的交流神态。<strong>&lt;/facial_expression&gt;</strong>
 <strong>&lt;body_movement&gt;</strong>动作自然放松，双手握着筷子，姿态稳定；身体保持端正坐姿，无明显的前倾、后仰或大幅度手势，整体肢体语言简洁平稳，符合中性情绪下的交流状态。<strong>&lt;/body_movement&gt;</strong>
 <strong>&lt;speech_prompt&gt;</strong>以中性语气，语速较慢，音量正常且略有起伏，音调整体偏低沉，传达出一种稳重而坚定的态度。<strong>&lt;/speech_prompt&gt;</strong>
 <strong>&lt;content&gt;</strong>回来过三次，不过有1次没见着<strong>&lt;/content&gt;</strong>
     </td>
     <!-- 英文列 -->
-    <td style="border: none; vertical-align: top; padding: 10px; white-space: pre-line;">
+    <td style="border: none; vertical-align: top; padding: 10px; white-space: ">
 <strong>&lt;facial_expression&gt;</strong>The overall expression is neutral. The eyes are naturally wide open, with a focused and calm gaze. The mouth opens and closes naturally with the rhythm of speaking, facial muscles are relaxed, and there are no obvious emotional fluctuations (such as surprise, a smile, or frowning). A calm communication demeanor is maintained throughout.<strong>&lt;/facial_expression&gt;</strong>
 <strong>&lt;body_movement&gt;</strong>Movements are natural and relaxed, with both hands holding chopsticks in a stable posture. The body maintains a upright sitting position, with no obvious leaning forward, leaning back, or large gestures. The overall body language is concise and steady, conforming to the communication state under neutral emotions.<strong>&lt;/body_movement&gt;</strong>
 <strong>&lt;speech_prompt&gt;</strong>Use a neutral tone, with a slow speaking speed. The volume is normal with slight fluctuations, and the overall pitch is relatively deep, conveying a steady and firm attitude.<strong>&lt;/speech_prompt&gt;</strong>
